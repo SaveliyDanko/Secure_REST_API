@@ -30,6 +30,6 @@ jobs:
         with:
           name: security-reports
           path: |
-            target/spotbugs.xml
+            target/site/spotbugs.html
             target/dependency-check-report.html
           if-no-files-found: ignore
