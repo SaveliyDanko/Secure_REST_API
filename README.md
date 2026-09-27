@@ -54,7 +54,7 @@ curl -X POST http://localhost:8080/api/data \
 
 GitHub Actions запускается при `push` и создании pull request. Pipeline выполняет сборку Maven, статический анализ SpotBugs и проверку зависимостей OWASP Dependency-Check. Сборка завершается ошибкой при обнаружении зависимости с оценкой CVSS от 7.
 
-[Последний успешный запуск CI](https://github.com/SaveliyDanko/Secure_REST_API/actions/runs/36325050494)
+[Последний успешный запуск CI](https://github.com/SaveliyDanko/Secure_REST_API/actions/runs/36325811652)
 
 Отчёты доступны в артефакте `security-reports` на странице запуска.
 
